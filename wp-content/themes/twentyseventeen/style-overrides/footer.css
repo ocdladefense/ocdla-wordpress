@@ -1,0 +1,10 @@
+.site-footer {
+	background-color:rgb(238, 241, 249);
+}
+.site-footer .wrap {
+	text-align: center;
+}
+
+.site-info a {
+	font-family: 'Open Sans', sans-serif;
+}

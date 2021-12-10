@@ -1,0 +1,71 @@
+/*Home screen overrides*/
+
+/*Post area styles*/
+.trevor-posts-container{
+	text-align: center;
+}
+
+
+.hero-image-logo-div{
+	width: 100%;
+    height: 155px;
+}
+.hero-image-logo-div img{
+	height: 100%;
+}
+
+
+
+.trevor-posts{
+	width: 93%;
+    margin: 0 auto;
+    text-align: left;
+}
+.trevor-posts .wrap{
+	padding:10px;
+}
+
+.trevor-posts .wp-block-image figure.alignleft {
+	margin-right:6%;
+}
+
+.trevor-posts p {
+	font-size: smaller;
+}
+
+
+.announcement-image img {
+	width:200px;
+}
+.trevor-posts article figure{
+	width:45%;
+	height:80%;
+
+}
+.trevor-posts article img{
+	width:100%;
+	height:100%;
+}
+.trevor-posts .entry-title::after{
+	margin-left: -12px;
+	content:"";
+	border-style: solid;
+	display:block;
+	width: 50px;
+	color:orange;
+	margin-top:10px;
+}
+.norm_row .sfsi_wDiv{
+	right: -115px;
+}
+.trevor-posts .wp-block-image{
+	margin-right: 3px;
+}
+
+
+.announcements-label{
+    color: rgb(100, 120, 160);
+    margin: 0;
+    margin-left: 6%;
+    font-weight: bold;
+}

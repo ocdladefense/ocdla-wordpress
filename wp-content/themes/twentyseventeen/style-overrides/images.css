@@ -1,0 +1,10 @@
+
+.wp-block-image figure.alignleft {
+	margin:0;
+	padding-right:13px;
+	padding-bottom:0px;
+}
+
+.wp-block-image figure.alignleft img {
+	vertical-align: text-bottom;
+}
