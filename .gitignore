@@ -28,8 +28,6 @@ wp-content/plugins/custom-sidebars
 wp-content/plugins/donors
 wp-content/plugins/wp-media-manager-lite
 wp-content/plugins/salesforce
+wp-content/plugins/ccpay
 wp-content/plugins/wp-composer
 wp-content/plugins/wp-plugin-composer
-
-# Ignore plugins and themes that should be managed by composer (Being ignored anyway, since they are git submodules)
-wp-content/plugins/ccpay
