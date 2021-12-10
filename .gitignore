@@ -34,7 +34,3 @@ wp-content/plugins/wp-plugin-composer
 # Ignore plugins and themes that should be managed by composer
 wp-content/plugins/ccpay
 wp-content/themes/twentyseventeen
-
-# Ignore temporarily
-wp-admin
-
