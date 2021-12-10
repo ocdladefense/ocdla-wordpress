@@ -1,0 +1,42 @@
+
+# Ignore some files
+robots.txt
+.htaccess
+composer.lock
+search.php
+wordpress.zip
+
+# Ignore some directories
+/vendor
+
+# Ignore configuration files
+wp-config.php
+wp-content/oauth-config.php
+
+# Ignore the uploads directory
+wp-content/uploads/
+
+# Ignore themes managed by composer 
+wp-content/themes/ocdla/
+wp-content/themes/wireframe
+
+#Ignore plugins managed by composer
+wp-content/plugins/committees
+wp-content/plugins/create-and-assign-categories-for-pages
+wp-content/plugins/custom-post-widget
+wp-content/plugins/custom-sidebars
+wp-content/plugins/donors
+wp-content/plugins/wp-media-manager-lite
+wp-content/plugins/salesforce
+wp-content/plugins/wp-composer
+wp-content/plugins/wp-plugin-composer
+
+# Ignore plugins and themes that should be managed by composer
+wp-content/plugins/ccpay
+wp-content/themes/twentyseventeen
+
+# Ignore temporarily
+wp-admin
+wp-content
+wp-includes
+

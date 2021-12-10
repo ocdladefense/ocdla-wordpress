@@ -1,0 +1,27 @@
+{
+    "name": "ocdladefense/ocdlaprod",
+    "description": "A wordpress install",
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        }
+    ],
+    "extra": {
+    	"installer-paths": {
+            "wp-content/plugins/committees":["ocdladefense/wp-committees"],
+            "wp-content/plugins/donors":["ocdladefense/wp-donors"],
+            "wp-content/plugins/salesforce":["ocdladefense/wp-salesforce"]
+    	}
+    },
+    "require": {
+        "composer/installers":"~1.0",
+        "ocdladefense/wp-committees":"~1.0",
+        "ocdladefense/wp-salesforce":"~2.0",
+        "wpackagist-plugin/create-and-assign-categories-for-pages":"1.2",
+        "wpackagist-plugin/custom-post-widget":"3.2.1",
+        "wpackagist-plugin/custom-sidebars":"3.31",
+        "wpackagist-plugin/wp-media-manager-lite":"1.1.2"
+    }
+}
