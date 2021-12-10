@@ -6,7 +6,7 @@ composer.lock
 search.php
 wordpress.zip
 
-# Ignore some directories
+# Ignore the root vendor directory.
 /vendor
 
 # Ignore configuration files
