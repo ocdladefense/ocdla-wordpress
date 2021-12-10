@@ -1,0 +1,518 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "926a669920f8779b1512403da8b1f95f",
+    "packages": [
+        {
+            "name": "composer/installers",
+            "version": "1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "d20a64ed3c94748397ff5973488761b22f6d3f19"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/d20a64ed3c94748397ff5973488761b22f6d3f19",
+                "reference": "d20a64ed3c94748397ff5973488761b22f6d3f19",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0"
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.6.* || ^2.0",
+                "composer/semver": "^1 || ^3",
+                "phpstan/phpstan": "^0.12.55",
+                "phpstan/phpstan-phpunit": "^0.12.16",
+                "symfony/phpunit-bridge": "^4.2 || ^5",
+                "symfony/process": "^2.3"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Composer\\Installers\\Plugin",
+                "branch-alias": {
+                    "dev-main": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "https://composer.github.io/installers/",
+            "keywords": [
+                "Craft",
+                "Dolibarr",
+                "Eliasis",
+                "Hurad",
+                "ImageCMS",
+                "Kanboard",
+                "Lan Management System",
+                "MODX Evo",
+                "MantisBT",
+                "Mautic",
+                "Maya",
+                "OXID",
+                "Plentymarkets",
+                "Porto",
+                "RadPHP",
+                "SMF",
+                "Starbug",
+                "Thelia",
+                "Whmcs",
+                "WolfCMS",
+                "agl",
+                "aimeos",
+                "annotatecms",
+                "attogram",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "cockpit",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "eZ Platform",
+                "elgg",
+                "expressionengine",
+                "fuelphp",
+                "grav",
+                "installer",
+                "itop",
+                "joomla",
+                "known",
+                "kohana",
+                "laravel",
+                "lavalite",
+                "lithium",
+                "magento",
+                "majima",
+                "mako",
+                "mediawiki",
+                "miaoxing",
+                "modulework",
+                "modx",
+                "moodle",
+                "osclass",
+                "pantheon",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "processwire",
+                "puppet",
+                "pxcms",
+                "reindex",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "sydes",
+                "sylius",
+                "symfony",
+                "tastyigniter",
+                "typo3",
+                "wordpress",
+                "yawik",
+                "zend",
+                "zikula"
+            ],
+            "support": {
+                "issues": "https://github.com/composer/installers/issues",
+                "source": "https://github.com/composer/installers/tree/v1.12.0"
+            },
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-09-13T08:19:44+00:00"
+        },
+        {
+            "name": "ocdladefense/lib-http",
+            "version": "v3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ocdladefense/lib-http.git",
+                "reference": "b85436ec93b92748988015e252f4076b5e5b3ca3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ocdladefense/lib-http/zipball/b85436ec93b92748988015e252f4076b5e5b3ca3",
+                "reference": "b85436ec93b92748988015e252f4076b5e5b3ca3",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ],
+                "files": [
+                    "src/HttpConstants.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jose Bernal",
+                    "email": "jbernal.web.dev@gmail.com"
+                }
+            ],
+            "description": "PHP wrapper classes for curl functions.",
+            "support": {
+                "issues": "https://github.com/ocdladefense/lib-http/issues",
+                "source": "https://github.com/ocdladefense/lib-http/tree/v3.0.1"
+            },
+            "time": "2021-11-11T23:03:02+00:00"
+        },
+        {
+            "name": "ocdladefense/lib-oauth-config",
+            "version": "v2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ocdladefense/lib-oauth-config.git",
+                "reference": "0156d8208ae2a48ae238cd6c71b2b40bde7ef89b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ocdladefense/lib-oauth-config/zipball/0156d8208ae2a48ae238cd6c71b2b40bde7ef89b",
+                "reference": "0156d8208ae2a48ae238cd6c71b2b40bde7ef89b",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Classes to enable parsing of oauth schemas.",
+            "support": {
+                "issues": "https://github.com/ocdladefense/lib-oauth-config/issues",
+                "source": "https://github.com/ocdladefense/lib-oauth-config/tree/v2.1.1"
+            },
+            "time": "2021-04-20T21:19:09+00:00"
+        },
+        {
+            "name": "ocdladefense/lib-salesforce-rest-api",
+            "version": "v3.5.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ocdladefense/lib-salesforce-rest-api.git",
+                "reference": "b0841ae36e191fa8f779633ef0e9bd9ac56bf83e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ocdladefense/lib-salesforce-rest-api/zipball/b0841ae36e191fa8f779633ef0e9bd9ac56bf83e",
+                "reference": "b0841ae36e191fa8f779633ef0e9bd9ac56bf83e",
+                "shasum": ""
+            },
+            "require": {
+                "ocdladefense/lib-http": "~3.0",
+                "ocdladefense/lib-oauth-config": "~2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/",
+                    "models/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "OCDLA plugin accesses.",
+            "support": {
+                "issues": "https://github.com/ocdladefense/lib-salesforce-rest-api/issues",
+                "source": "https://github.com/ocdladefense/lib-salesforce-rest-api/tree/v3.5.4"
+            },
+            "time": "2021-11-11T23:07:38+00:00"
+        },
+        {
+            "name": "ocdladefense/wp-committees",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ocdladefense/wp-plugin-committees.git",
+                "reference": "92dcfa03957bed10bb3d235fca5d6586c94a3451"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ocdladefense/wp-plugin-committees/zipball/92dcfa03957bed10bb3d235fca5d6586c94a3451",
+                "reference": "92dcfa03957bed10bb3d235fca5d6586c94a3451",
+                "shasum": ""
+            },
+            "require": {
+                "ocdladefense/wp-salesforce": "~2.0"
+            },
+            "type": "wordpress-theme",
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "This plugin queries for OCDLA committees and their members and displays these on the WordPress page",
+            "support": {
+                "issues": "https://github.com/ocdladefense/wp-plugin-committees/issues",
+                "source": "https://github.com/ocdladefense/wp-plugin-committees/tree/v1.0"
+            },
+            "time": "2021-06-10T00:10:53+00:00"
+        },
+        {
+            "name": "ocdladefense/wp-composer",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ocdladefense/wp-plugin-composer.git",
+                "reference": "caaac6ccbf02f995701dd47253171ee931bbf462"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ocdladefense/wp-plugin-composer/zipball/caaac6ccbf02f995701dd47253171ee931bbf462",
+                "reference": "caaac6ccbf02f995701dd47253171ee931bbf462",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "WordPress plugin to require the composer autoloader.",
+            "support": {
+                "issues": "https://github.com/ocdladefense/wp-plugin-composer/issues",
+                "source": "https://github.com/ocdladefense/wp-plugin-composer/tree/main"
+            },
+            "time": "2021-12-09T21:34:19+00:00"
+        },
+        {
+            "name": "ocdladefense/wp-plugin-ccpay",
+            "version": "dev-development",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ocdladefense/wp-plugin-ccpay.git",
+                "reference": "782172be8b2500736e4b81df85b03ec0831612c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ocdladefense/wp-plugin-ccpay/zipball/782172be8b2500736e4b81df85b03ec0831612c3",
+                "reference": "782172be8b2500736e4b81df85b03ec0831612c3",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "support": {
+                "issues": "https://github.com/ocdladefense/wp-plugin-ccpay/issues",
+                "source": "https://github.com/ocdladefense/wp-plugin-ccpay/tree/development"
+            },
+            "time": "2021-12-10T17:34:27+00:00"
+        },
+        {
+            "name": "ocdladefense/wp-salesforce",
+            "version": "v2.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ocdladefense/wp-plugin-salesforce.git",
+                "reference": "a4281e9cae7c5d4e1415525c4380644de6225ac7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ocdladefense/wp-plugin-salesforce/zipball/a4281e9cae7c5d4e1415525c4380644de6225ac7",
+                "reference": "a4281e9cae7c5d4e1415525c4380644de6225ac7",
+                "shasum": ""
+            },
+            "require": {
+                "ocdladefense/lib-salesforce-rest-api": "~3.0",
+                "ocdladefense/wp-composer": "dev-main"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "WordPress plugin to connect to Salesforce.",
+            "support": {
+                "issues": "https://github.com/ocdladefense/wp-plugin-salesforce/issues",
+                "source": "https://github.com/ocdladefense/wp-plugin-salesforce/tree/v2.4"
+            },
+            "time": "2021-08-19T17:11:07+00:00"
+        },
+        {
+            "name": "ocdladefense/wp-theme-ocdla",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ocdladefense/wp-theme-ocdla.git",
+                "reference": "e9b23ac6e6828512b4b5cdd1e35f3e5e44c49f10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ocdladefense/wp-theme-ocdla/zipball/e9b23ac6e6828512b4b5cdd1e35f3e5e44c49f10",
+                "reference": "e9b23ac6e6828512b4b5cdd1e35f3e5e44c49f10",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "default-branch": true,
+            "type": "wordpress-theme",
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "José Bernal",
+                    "email": "jbernal.web.dev@gmail.com"
+                }
+            ],
+            "description": "A WordPress child theme that uses Wireframe as a parent",
+            "support": {
+                "issues": "https://github.com/ocdladefense/wp-theme-ocdla/issues",
+                "source": "https://github.com/ocdladefense/wp-theme-ocdla/tree/master"
+            },
+            "time": "2021-12-10T18:00:21+00:00"
+        },
+        {
+            "name": "ocdladefense/wp-theme-wireframe",
+            "version": "dev-production-recent",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ocdladefense/wp-theme-wireframe.git",
+                "reference": "7c11236043a7a8abc4f9c1fc8063a9cb51b973ee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ocdladefense/wp-theme-wireframe/zipball/7c11236043a7a8abc4f9c1fc8063a9cb51b973ee",
+                "reference": "7c11236043a7a8abc4f9c1fc8063a9cb51b973ee",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": "^7"
+            },
+            "type": "wordpress-theme",
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "trevoruehlinx1",
+                    "email": "trevoruehlinx1@gmail.com"
+                }
+            ],
+            "description": "Wireframe Theme for WordPress",
+            "support": {
+                "issues": "https://github.com/ocdladefense/wp-theme-wireframe/issues",
+                "source": "https://github.com/ocdladefense/wp-theme-wireframe/tree/production-recent"
+            },
+            "time": "2021-12-10T18:16:29+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/create-and-assign-categories-for-pages",
+            "version": "1.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/create-and-assign-categories-for-pages/",
+                "reference": "tags/1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/create-and-assign-categories-for-pages.1.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/create-and-assign-categories-for-pages/"
+        },
+        {
+            "name": "wpackagist-plugin/custom-post-widget",
+            "version": "3.2.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/custom-post-widget/",
+                "reference": "tags/3.2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/custom-post-widget.3.2.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/custom-post-widget/"
+        },
+        {
+            "name": "wpackagist-plugin/custom-sidebars",
+            "version": "3.31",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/custom-sidebars/",
+                "reference": "tags/3.31"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/custom-sidebars.3.31.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/custom-sidebars/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-media-manager-lite",
+            "version": "1.1.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-media-manager-lite/",
+                "reference": "tags/1.1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-media-manager-lite.1.1.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-media-manager-lite/"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "ocdladefense/wp-theme-ocdla": 20,
+        "ocdladefense/wp-theme-wireframe": 20,
+        "ocdladefense/wp-plugin-ccpay": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}

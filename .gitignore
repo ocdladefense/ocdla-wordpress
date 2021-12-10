@@ -2,8 +2,10 @@
 # Ignore some files
 robots.txt
 .htaccess
-composer.lock
+#composer.lock
 search.php
+
+# Existing zip file. Probably should not be in the repo.
 wordpress.zip
 
 # Ignore the root vendor directory.
