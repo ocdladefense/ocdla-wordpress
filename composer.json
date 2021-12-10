@@ -18,11 +18,15 @@
             "wp-content/plugins/committees":["ocdladefense/wp-committees"],
             "wp-content/plugins/donors":["ocdladefense/wp-donors"],
             "wp-content/plugins/salesforce":["ocdladefense/wp-salesforce"],
-            "wp-content/plugins/ccpay":["ocdladefense/wp-plugin-ccpay"]
+            "wp-content/plugins/ccpay":["ocdladefense/wp-plugin-ccpay"],
+            "wp-content/themes/ocdla":["ocdladefense/wp-theme-ocdla"],
+            "wp-content/themes/wireframe":["ocdladefense/wp-theme-wireframe"]
     	}
     },
     "require": {
         "composer/installers":"~1.0",
+        "ocdladefense/wp-theme-ocdla":"dev-master",
+        "ocdladefense/wp-theme-wireframe":"dev-production-recent",
         "ocdladefense/wp-committees":"~1.0",
         "ocdladefense/wp-salesforce":"~2.0",
         "ocdladefense/wp-plugin-ccpay":"dev-development",
