@@ -17,6 +17,7 @@ wp-content/oauth-config.php
 
 # Ignore the uploads directory (full of images)
 wp-content/uploads
+uploads.tar.gz
 
 # Ignore themes managed by composer 
 wp-content/themes/ocdla
