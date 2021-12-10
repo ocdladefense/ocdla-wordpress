@@ -17,7 +17,8 @@
     	"installer-paths": {
             "wp-content/plugins/committees":["ocdladefense/wp-committees"],
             "wp-content/plugins/donors":["ocdladefense/wp-donors"],
-            "wp-content/plugins/salesforce":["ocdladefense/wp-salesforce"]
+            "wp-content/plugins/salesforce":["ocdladefense/wp-salesforce"],
+            "wp-content/plugins/ccpay":["ocdladefense/wp-plugin-ccpay"]
     	}
     },
     "require": {
