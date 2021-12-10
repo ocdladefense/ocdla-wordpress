@@ -8,6 +8,11 @@
             "url": "https://wpackagist.org"
         }
     ],
+    "config":{
+        "preferred-install":{
+            "ocdladefense/*":"source"
+        }
+    },
     "extra": {
     	"installer-paths": {
             "wp-content/plugins/committees":["ocdladefense/wp-committees"],
@@ -19,6 +24,7 @@
         "composer/installers":"~1.0",
         "ocdladefense/wp-committees":"~1.0",
         "ocdladefense/wp-salesforce":"~2.0",
+        "ocdladefense/wp-plugin-ccpay":"dev-development",
         "wpackagist-plugin/create-and-assign-categories-for-pages":"1.2",
         "wpackagist-plugin/custom-post-widget":"3.2.1",
         "wpackagist-plugin/custom-sidebars":"3.31",
