@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "926a669920f8779b1512403da8b1f95f",
+    "content-hash": "ecd43716af13f5811130f7b1169ea273",
     "packages": [
         {
             "name": "composer/installers",
@@ -338,30 +338,29 @@
         },
         {
             "name": "ocdladefense/wp-salesforce",
-            "version": "v2.4",
+            "version": "v2.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ocdladefense/wp-plugin-salesforce.git",
-                "reference": "a4281e9cae7c5d4e1415525c4380644de6225ac7"
+                "reference": "ae12e4a59011bb6041b77722900040a7e6836444"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ocdladefense/wp-plugin-salesforce/zipball/a4281e9cae7c5d4e1415525c4380644de6225ac7",
-                "reference": "a4281e9cae7c5d4e1415525c4380644de6225ac7",
+                "url": "https://api.github.com/repos/ocdladefense/wp-plugin-salesforce/zipball/ae12e4a59011bb6041b77722900040a7e6836444",
+                "reference": "ae12e4a59011bb6041b77722900040a7e6836444",
                 "shasum": ""
             },
             "require": {
-                "ocdladefense/lib-salesforce-rest-api": "~3.0",
-                "ocdladefense/wp-composer": "dev-main"
+                "ocdladefense/lib-salesforce-rest-api": "~3.0"
             },
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
             "description": "WordPress plugin to connect to Salesforce.",
             "support": {
                 "issues": "https://github.com/ocdladefense/wp-plugin-salesforce/issues",
-                "source": "https://github.com/ocdladefense/wp-plugin-salesforce/tree/v2.4"
+                "source": "https://github.com/ocdladefense/wp-plugin-salesforce/tree/v2.4.1"
             },
-            "time": "2021-08-19T17:11:07+00:00"
+            "time": "2021-12-13T21:30:28+00:00"
         },
         {
             "name": "ocdladefense/wp-theme-ocdla",
@@ -508,6 +507,7 @@
     "stability-flags": {
         "ocdladefense/wp-theme-ocdla": 20,
         "ocdladefense/wp-theme-wireframe": 20,
+        "ocdladefense/wp-composer": 20,
         "ocdladefense/wp-plugin-ccpay": 20
     },
     "prefer-stable": false,

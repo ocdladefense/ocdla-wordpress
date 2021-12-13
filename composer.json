@@ -15,10 +15,11 @@
     },
     "extra": {
     	"installer-paths": {
+            "wp-content/plugins/ccpay":["ocdladefense/wp-plugin-ccpay"],
             "wp-content/plugins/committees":["ocdladefense/wp-committees"],
+            "wp-content/plugins/composer":["ocdladefense/wp-composer"],
             "wp-content/plugins/donors":["ocdladefense/wp-donors"],
             "wp-content/plugins/salesforce":["ocdladefense/wp-salesforce"],
-            "wp-content/plugins/ccpay":["ocdladefense/wp-plugin-ccpay"],
             "wp-content/themes/ocdla":["ocdladefense/wp-theme-ocdla"],
             "wp-content/themes/wireframe":["ocdladefense/wp-theme-wireframe"]
     	}
@@ -27,9 +28,10 @@
         "composer/installers":"~1.0",
         "ocdladefense/wp-theme-ocdla":"dev-master",
         "ocdladefense/wp-theme-wireframe":"dev-production-recent",
-        "ocdladefense/wp-committees":"~1.0",
-        "ocdladefense/wp-salesforce":"~2.0",
         "ocdladefense/wp-plugin-ccpay":"dev-development",
+        "ocdladefense/wp-committees":"~1.0",
+        "ocdladefense/wp-composer":"dev-main",
+        "ocdladefense/wp-salesforce":"~2.0",
         "wpackagist-plugin/create-and-assign-categories-for-pages":"1.2",
         "wpackagist-plugin/custom-post-widget":"3.2.1",
         "wpackagist-plugin/custom-sidebars":"3.31",
